@@ -5,8 +5,7 @@ class Button extends Component {
     return (
       <button
         className="btn btn-primary m-1"
-        onClick={this.props.onClick}
-      >
+        onClick={this.props.onClick}>
         {this.props.children}
       </button>
     )
